@@ -33,7 +33,7 @@ use WatsonSDK\Services\PersonalityInsights\ContentItemModel;
  */
 class PersonalityInsights extends WatsonService {
 
-    const BASE_URL = 'https://gateway.watsonplatform.net/personality-insights/api/v3';
+    const BASE_URL = 'https://api.us-south.personality-insights.watson.cloud.ibm.com/instances/14444f48-a2fa-43d6-a270-bb55d28a33cf/v3';
 
     /**
      * Generates a personality profile for the author of the input text. 
